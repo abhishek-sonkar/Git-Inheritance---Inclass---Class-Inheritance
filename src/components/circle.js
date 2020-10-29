@@ -1,4 +1,4 @@
-import Shape from './shape';
+const Shape =  require('./shape');
 export default class Circle extends Shape {
     constructor() {
         super();
@@ -8,3 +8,4 @@ export default class Circle extends Shape {
         return 3.14 * 5 * 5;
     }
 }
+module.exports = Circle;
